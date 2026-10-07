@@ -7,21 +7,10 @@ TwDrvFifo_ioctl | libtouchscreen.so
 TwDrvFifo_open | libtouchscreen.so
 TwDrvFifo_read | libtouchscreen.so
 TwDrvFifo_write | libtouchscreen.so
-Menu_AppendLangExt(Locale::Languages, char (&) [255]) | trivia.so
-debug_check_address(void*) | libmerit2d.so
-debug_check_address(void*) | libmeritbasegame.so
-Heartbeat_WaitForAll(unsigned long, bool) | libmeritbasegame.so
 NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | libmeritbasegame.so
 ChampEditionI::GetCurrentLeaderName(int) | trivia.so
-MyMeritManager::GetGameLevel(xml_gameinfo::GameIds) | libmeritbasegame.so
-MyMeritManager::SetGameLevel(xml_gameinfo::GameIds, int) | libmeritbasegame.so
-MyMeritManager::Instance() | libmeritbasegame.so
 HighScoresManager::LowestScore(xml_gameinfo::GameIds, int) | trivia.so
 HighScoresManager::GetCurrentPlayer() | trivia.so
 HighScoresManager::SetCurrentPlayer(int) | trivia.so
 USBIO::JoystickFound() | libmeritbasegame.so
 USBIO::Instance() | trivia.so
-Locale::LanguageManager::IndexOf(Locale::Languages) | trivia.so
-MyMeritManager::PlayerLoaded() const | libmeritbasegame.so
-MyMeritManager::Name() const | libmeritbasegame.so
-voice_stop | trivia.so
