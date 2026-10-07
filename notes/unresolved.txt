@@ -7,10 +7,7 @@ TwDrvFifo_ioctl | libtouchscreen.so
 TwDrvFifo_open | libtouchscreen.so
 TwDrvFifo_read | libtouchscreen.so
 TwDrvFifo_write | libtouchscreen.so
-NetGlobals::NetSpriteUnRegister(NetSprite*, unsigned char) | libmeritbasegame.so
 ChampEditionI::GetCurrentLeaderName(int) | trivia.so
-HighScoresManager::LowestScore(xml_gameinfo::GameIds, int) | trivia.so
 HighScoresManager::GetCurrentPlayer() | trivia.so
 HighScoresManager::SetCurrentPlayer(int) | trivia.so
-USBIO::JoystickFound() | libmeritbasegame.so
 USBIO::Instance() | trivia.so
